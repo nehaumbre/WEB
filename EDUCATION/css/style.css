@@ -63,12 +63,12 @@ header{
     transition: .2s;
 }
 
-/* header .active{
+.header .active{
     top:0;
     width: 100%;
     border-radius: 0;
     box-shadow:0 .1rem .3rem rgba(0,0,0,0.3);
-} */
+}
 
 header .navbar ul{
     display: flex;
@@ -304,6 +304,7 @@ header .fa-times{
         opacity: 0;
         transition: .2s linear;
     }
+    
 
     header .navbar ul{
         flex-flow: column;
@@ -320,6 +321,13 @@ header .fa-times{
         font-size: 3rem;
         display:block;
     }
+
+    /* header .active{
+    top:0;
+    width: 100%;
+    border-radius: 0;
+    box-shadow:0 .1rem .3rem rgba(0,0,0,0.3);
+    }  */
 
     header .nav-toggle{
         top: 5.5rem;

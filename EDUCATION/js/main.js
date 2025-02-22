@@ -7,15 +7,14 @@ $(document).ready(function(){
     $(window).on('scroll load',function(){
         $('.fa-bars').removeClass('fa-times');
         $('.navbar').removeClass('nav-toggle');
-    });
 
-    if($(window).scrollTop() > 30){
+        if($(window).scrollTop() > 30){
         $('header').addClass('header-active')
-    }else{
+        }else{
         $('header').removeClass('header-active')
-    }
+        }
 
-    $('section').each(function(){
+        $('section').each(function(){
         var top = $(window).scrollTop();
         var id = $(this).attr('id');
         var height = $(this).height();
@@ -24,6 +23,7 @@ $(document).ready(function(){
             $('.navbar ul li a').removeClass('active');
             $('.navbar').find('[href="#' + id + '"]').addClass('active');
         }
-
     });
+    });
+
 });
