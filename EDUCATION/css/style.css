@@ -275,7 +275,7 @@ header .fa-bars{
     letter-spacing: .2rem;
     opacity: .8;
 }
-
+/* =================================== */
 
 /* ========================================= */
 
@@ -341,8 +341,50 @@ header .fa-bars{
 
 
 /* ================teacher section css======== */
+/* course section css starts*/
+.courses .box-container{
+    width: 85%;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+}
 
+.courses .box-container .box{
+    height: 28rem;
+    width: 45rem;
+    margin: 3.5rem 2rem;
+    text-align: center;
+    box-shadow: .3rem .3rem 0 .1rem rgba(198, 59, 250, .8), .5rem .5rem .5rem rgba(0,0,0,0.3);
+    border-radius: 1rem;
+}
 
+.courses .box-container .box i{
+    height: 10rem;
+    width: 10rem;
+    line-height: 8rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    background: #ff046f;
+    margin-top: -2rem;
+    border: 1rem solid #fff;
+    border-left:1rem solid #ff046f;
+    border-right: 1rem solid #ff046f;
+    box-shadow: 0 0 0 1rem #fff inset;
+    font-size: 3.5rem;
+}
+.courses .box-container .box h3{
+    font-size: 2rem;
+    color:#c63bfa
+}
+.courses .box-container .box p{
+    font-size: 2rem;
+    color: #999;
+    padding: 1rem .5rem;
+} 
+/* =========course section css ends============ */
 header .fa-times{
     transform: rotate(180deg);
     color: #c63bfa;
