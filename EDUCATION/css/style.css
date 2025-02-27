@@ -436,6 +436,68 @@ header .fa-bars{
     padding: 1.3rem .2rem;
 }
 /* =========course section css ends============ */
+
+.contact {
+    background: #333;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.contact .row .image img{
+    width: 50vw;
+    height: 70vh;
+}
+
+.contact .row .form-container{
+    width: 50%;
+    padding-right: 6rem;
+}
+
+.contact .row .form-container input, textarea{
+    height: 4rem;
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    color: #ff046f;
+    font-size: 1.9rem;
+    transition: .2s linear;
+}
+
+.contact .row .form-container input:focus,
+textarea:focus{
+    border: .2rem solid rgba(230, 61, 230, 0.8);
+}
+
+.contact .row .form-container textarea{
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+}
+
+.contact .row .form-container input[type="submit"]{
+    width: 17rem;
+    background: #ff046f;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.contact .row .form-container input[type="submit"]:hover{
+    background: none;
+    color: #ff046f;
+    border: .2rem solid rgba(255, 86, 204, 0.8);    
+}
+/* ====================================================contact */
 header .fa-times{
     transform: rotate(180deg);
     color: #c63bfa;
@@ -515,6 +577,20 @@ header .fa-times{
     }
     .courses .box-container{
         width: 100%;
+    }
+
+    .contact .row{
+        flex-flow: column;
+    }
+
+    .contact .row .image img{
+        height: 50vh;
+        width: 90vw;
+    }
+
+    .contact .row .form-container{
+        width: 90%;
+        padding: 0;
     }
 
 }
