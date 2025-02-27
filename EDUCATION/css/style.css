@@ -498,6 +498,14 @@ textarea:focus{
     border: .2rem solid rgba(255, 86, 204, 0.8);    
 }
 /* ====================================================contact */
+.footer{
+    text-align: center;
+}
+
+.footer .icons{
+    padding: 3rem 0;
+}
+/* f o o t e r============================== */
 header .fa-times{
     transform: rotate(180deg);
     color: #c63bfa;
