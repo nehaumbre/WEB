@@ -422,6 +422,18 @@ header .fa-bars{
     color: #ff046f;
     padding: 0 .5rem;
 }
+
+.review .box-container .box p {
+    font-size: 1.4rem;
+    color: #999;
+    padding: 0 1.3rem;
+}
+
+.review .box-container .box .stars i{
+    font-size: 1.6rem;
+    color:#c63bfa;
+    padding: 1.3rem .2rem;
+}
 /* =========course section css ends============ */
 header .fa-times{
     transform: rotate(180deg);
